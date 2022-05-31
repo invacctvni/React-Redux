@@ -3,4 +3,25 @@
   height: 30vh;
   border: 3px red solid;
   margin: 5px;
+  .imgClass {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 80%;
+    margin:2% 8.5% 0 10%;
+  }
+  div {
+    text-align: center;
+    font-size: smaller;
+    color: white;
+    white-space: nowrap; //sets how white space inside an element is handeled.
+    overflow: hidden;
+    font-weight: bold;
+  }
+
+  .titleContainer {
+    font-weight: bold;
+  }
+  .artistContainer {
+    font-size: 10px;
+  }
 }

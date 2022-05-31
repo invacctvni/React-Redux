@@ -20,9 +20,11 @@ export const songReducer = (state =  initState, action) => {
             //data treatment here..
             return {...state,songList: action.payload}
         case SELECT_SONG:
+            console.log("select song reducer started working. action?.payload is", action?.payload)
             return {...state, songId: action?.payload}
         default:
             console.log('song reducer state', state)
             return state
     }
+
 }

@@ -61,6 +61,7 @@ const selectSong = songID => dispatch => {
        type: SELECT_SONG,
        payload: songID
    })
+    console.log("select song payload", songID)
 }
 
 export {fetchAllSongs, selectSong}
