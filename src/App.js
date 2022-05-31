@@ -1,5 +1,6 @@
 import "./App.scss"
 import {PlayerConsole} from "./components/PlayerConsole";
+import {useState} from "react";
 //react use context global state.
 //store (state) => need reducer (state), action(trigger process-updating status in stores)
 //Any components can access the state equally.
@@ -7,7 +8,7 @@ import {PlayerConsole} from "./components/PlayerConsole";
 function App() {
   return (
     <div className="App">
-    <h1>Hello</h1>
+      <button></button>
       <PlayerConsole/>
     </div>
   );
