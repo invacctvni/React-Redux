@@ -17,6 +17,7 @@ export const songReducer = (state =  initState, action) => {
     switch (action.type) {
         case FETCH_ALL_SONGS:
             console.log("song reducer is printing ===>", action?.payload)
+            //data treatment here..
             return {...state,songList: action.payload}
         case SELECT_SONG:
             return {...state, songId: action?.payload}
