@@ -30,5 +30,12 @@ export const PlayerConsole = () => {
                 <Song v={v} key={i} />)
                 }
             </div>
+        <div className="sectionSong">
+            {/*{console.log("song id is ", favSong)}*/}
+            {/*//naming convention favSongArr*/}
+            {songList.filter(value => value?.fav).map((v,i)=>
+                <Song v={v} key={i} />)
+            }
+        </div>
     </div>
 }
