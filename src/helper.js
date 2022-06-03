@@ -8,3 +8,5 @@ export const songs = [
 
 ]
 export const URL = "http://course-data.mark2win.com/solo"
+export const FETCH_ONE_SONG = 'FETCH_ONE_SONG'
+export const ADD_FAV_SONG = 'ADD_FAV_SONG'

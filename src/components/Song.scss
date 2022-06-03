@@ -1,12 +1,14 @@
 .songContainer {
   width: 15vw;
+  min-width: 200px;
   height: 30vh;
   border: 3px red solid;
   margin: 5px;
   .imgClass {
     border: 1px solid #ddd;
     border-radius: 4px;
-    height: 80%;
+    width: 80%;
+    height: 70%;
     margin:2% 8.5% 0 10%;
   }
   div {
@@ -24,4 +26,31 @@
   .artistContainer {
     font-size: 10px;
   }
+
+  .playButton {
+    position: relative;
+    border: none;
+    background: transparent;
+    color: gainsboro;
+  &:hover {
+    cursor: pointer;
+  }
+  }
+
+
+
+  .favButton {
+    position: relative;
+    left: 70%;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: larger;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+
 }
